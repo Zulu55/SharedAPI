@@ -10,6 +10,7 @@ namespace Shared.API.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<User> Employee { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
