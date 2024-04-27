@@ -15,8 +15,8 @@ namespace Shared.Common.Entities
         public string LastName { get; set; } = null!;
 
         [Required]
-        [MaxLength(20)]
-        [MinLength(20)]
+        [MaxLength(10)]
+        [MinLength(10)]
         public string Phone { get; set; } = null!;
 
         [Required]
