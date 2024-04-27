@@ -18,7 +18,5 @@ namespace Shared.API.Data
             modelBuilder.Entity<User>().HasIndex(x => x.Email).IsUnique();
             modelBuilder.Entity<Client>().HasIndex(x => x.Document).IsUnique();
         }
-
-
     }
 }
