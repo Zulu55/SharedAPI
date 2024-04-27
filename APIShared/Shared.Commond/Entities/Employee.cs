@@ -2,7 +2,7 @@
 
 namespace Shared.Common.Entities
 {
-    public class User
+    public class Employee
     {
         public int Id { get; set; }
 
@@ -25,8 +25,6 @@ namespace Shared.Common.Entities
         public string Email { get; set; } = null!;
 
         [Required]
-        [MaxLength(20)]
-        [MinLength(4)]
-        public string Password { get; set; } = null!;
+        public decimal Salario { get; set; }
     }
 }
